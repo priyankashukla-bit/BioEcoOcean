@@ -1,0 +1,34 @@
+GEOREFERENCED MAPS - METADATA
+Generated: 2026-09-17 20:51:46
+
+STUDY AREA : Viana do Castelo, NW Portugal
+CRS        : EPSG:4326
+Extent lon : -8.880745 to -8.844273
+Extent lat : 41.673744 to 41.749293
+Raster     : 406 x 841 px, 13 bands
+
+MODEL      : Random Forest (100 trees, max_depth=15, class_weight=balanced)
+Overall accuracy : 0.948
+Cohen kappa      : 0.889
+
+MEAN VALUES:
+  Rock probability    : 0.960
+  Seaweed probability : 0.040
+  Confidence          : 0.968
+
+MAPPED AREA (UTM 29N, EPSG:32629):
+  Rock    : 175.415 ha (97.3%)
+  Seaweed : 4.908 ha (2.7%)
+
+FILES (figures/georeferenced_maps/):
+  Final_Classification.png / .tif
+  Final_Classification_UTM29N.tif
+  Class_0_Probability.png / .tif   (Rock)
+  Class_1_Probability.png / .tif   (Seaweed)
+  Classification_Confidence.png / .tif
+  All_Maps_Comparison.png
+
+FILES (figures/):
+  Model_Evaluation.png
+  Class_Area.png
+  class_area_summary.csv
