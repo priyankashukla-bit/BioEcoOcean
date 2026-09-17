@@ -1,5 +1,5 @@
 GEOREFERENCED MAPS - METADATA
-Generated: 2026-09-17 20:51:46
+Generated: 2026-09-17 21:14:42
 
 STUDY AREA : Viana do Castelo, NW Portugal
 CRS        : EPSG:4326
